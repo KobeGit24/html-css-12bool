@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  background-color: pink;
+}
+
+[class*="col-"] {
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border: 1px solid #000;
+}
+
+footer .container .nested {
+  border: none;
+  border: 1px solid #fff;
+}
+
+
+footer .f-padding {
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+footer .container .padding-l {
+  padding-left: 3px;
+  border: none;
+}
+
+footer .container .padding-r {
+  padding-right: 3px;
+  border: none;
+}
