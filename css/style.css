@@ -24,6 +24,7 @@ body {
 footer .container .nested {
   border: none;
   border: 1px solid #fff;
+  background-color: rgb(255, 0, 0);
 }
 
 
